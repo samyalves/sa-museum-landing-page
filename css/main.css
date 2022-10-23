@@ -1,0 +1,349 @@
+body {
+	font-family: "Raleway", sans-serif;
+  width: 100%;
+  color:#327397 ;
+}
+
+header {
+  z-index: 2;
+  background-color:#327397;
+  width: 100%;
+  padding-bottom: 1rem;
+
+}
+
+
+.nav {
+  text-align: center;
+  font-family:"Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+.logo {
+ padding-top: .3rem;
+  width: 6rem;
+  display: inline;
+}
+.menu a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu a:hover{
+  color: #D9C20F;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 39.9375em){
+  header .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #DDECF6;
+  }
+  header .menu li {
+    /* add styling details */
+    font-size: 2rem;
+
+  }
+  header button {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  font-size: 1.5rem;
+  }
+  header button.show-for-small-only {
+    position: relative;
+    z-index: 2;
+  }
+  header button.show-for-small-only.btnToggle {
+    color: #ffffff;
+  }
+}
+
+
+ul {
+  font-weight: 700;
+  color: #327397;
+
+}
+ul .menu {
+  padding:  auto;
+}
+
+li .button {
+  background-color: white;
+  color: #5E95BE;
+  font-size: 1.5rem;
+}
+li .button:hover {
+  background-color: #D9C20F;
+  color: #5E95BE;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+                         /* ABOUT MUSEUM */
+
+section .button {
+  float: right;
+  z-index: 2;
+  align-content: center; 
+  font-weight: 700;
+  background-color: #5E95BE;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 45px;
+  margin: 1rem;
+  position: sticky;
+
+}
+section .button:hover {
+   z-index: 2;
+  align-content: center; 
+  font-weight: 700;
+  background-color: #D9C20F;
+  color: #327397;
+  font-size: 1.5rem;
+  border-radius: 45px;
+
+}
+
+section .museum-about{
+
+  text-align: center;
+  color: #327397;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #DDECF6;
+}
+
+.layer-text {
+
+  display: grid;
+  place-items:  center;
+
+}
+.layer-text * {
+  z-index: 1;
+  color: #327397;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.2rem;
+
+}
+.layer-text h1 {
+  color: #327397;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.background { 
+  z-index: 1;
+  opacity: 45%;
+  width: 100%;
+  height: auto;
+}
+.layer-text .grid-container {
+background-color: rgba(255,255,255,.4);
+z-index: 1;
+max-width: 60%;
+border-radius: 25px;
+}
+
+
+
+
+                     /*Exhibition Orbit Section*/
+.orbit{
+
+/*  margin-top: 7rem;*/
+}
+button .orbit-next {
+
+  position: relative;
+}
+
+
+
+
+                     /*Pictures Slide Section*/
+.pictures { 
+  color: #327397;
+  padding: 3rem;
+}
+
+.pictures-museum {
+  padding: 4rem 0;
+} 
+.pictures-museum h4{
+  padding: 1rem;
+}
+
+
+                   /*Location Section + VisitingSection*/
+
+.menu {
+
+  margin-left: 1rem;
+}
+
+
+h4 {
+  font-family: "Raleway", sans-serif; ;
+  color: #327397;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+}
+h2 {
+  font-family: "Raleway", sans-serif; 
+  color: #327397;
+  font-weight: 800;
+  text-align: left;
+}
+.visiting ul {
+  background-color: #DDECF6;
+  border-radius: 25px;
+  padding: 3rem;
+}
+.location a {
+font-weight: 600;
+font-size: 1.5rem;
+  align-content: center;
+  text-align: left;
+  color: #327397;
+}
+.locationmap {
+  align-content: center;
+  font-weight: 300;
+font-size: 1rem;
+color: #327397;
+
+}
+
+
+.location img{
+  max-width: 55%;
+}
+section .location {
+  text-align: center;
+}
+
+
+
+
+                     /*Email Sign Up Section*/
+.signup {
+  padding: 4rem 0 ;
+
+
+
+}
+
+label {
+   font-family: "Raleway", sans-serif; 
+   color: #327397;
+}
+input {
+   color: #327397;
+  border-radius: 25px;
+
+}
+.help-text {
+  font-family: "Raleway", sans-serif; 
+   color: #327397;
+}
+.visitus {
+  list-style: none;
+}
+.visitus a {
+  color: white;
+  font-size: 1.5rem;
+
+}
+          
+                              /*Footer*/
+.menuvertical a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.bottom a{
+  font-family: "Raleway", sans-serif; ;
+}
+footer {
+  align-content: center;
+ background-color:#327397;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+footer h5{
+  text-align:  center;
+  size: 1.4 rem ;
+  color:#FFFFFF ;
+}
+.contactus a {
+ color: white;
+ font-size: 1.5rem;
+}
+
+footer li{
+  font-size: .9rem;
+  color: white;
+  list-style: none;
+  font-weight: 300;
+  padding: .5rem;
+}
+footer .copyright{
+  font-size: .6rem;
+  text-align: center;
+  color: white;
+}
+footer .button {
+
+  font-weight: 700;
+  background-color: white;
+  color: #5E95BE;
+  font-size: 1rem;
+  border-radius: 45px;
+
+}
+footer .button:hover {
+  font-weight: 700;
+  background-color: #D9C20F;
+  color: #327397;
+  font-size: 1rem;
+  border-radius: 45px;
+
+}
+footer i {
+   align-content: center; 
+  color: white;
+  size: 1 rem;
+  padding-right: .5rem;
+}
+.signup label {
+  font-style: italic;
+}
+
+
+
+
+
